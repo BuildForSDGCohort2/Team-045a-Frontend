@@ -36,13 +36,13 @@ function Header() {
 
         <ul
           className={`${
-            isExpanded ? `block` : `hidden`
+            isExpanded ? "block" : "hidden"
           } md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto`}
         >
           {[
             { title: "Home", route: "/" },
             { title: "About", route: "/about" }
-          ].map(navigationItem => (
+          ].map((navigationItem) => (
             <li className="mt-3 md:mt-0 md:ml-6" key={navigationItem.title}>
               <Link href={navigationItem.route}>
                 <a className="block text-white">{navigationItem.title}</a>
