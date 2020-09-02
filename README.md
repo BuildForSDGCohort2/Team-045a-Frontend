@@ -28,8 +28,8 @@
 
 Enjoying this starter and want to help? You can:
 
--  [Create an issue](https://github.com/taylorbryant/next-starter-tailwind/issues/new) with some constructive criticism
--  [Submit a pull request](https://github.com/taylorbryant/next-starter-tailwind/compare) with some improvements to the project
+  - [Create an issue](https://github.com/taylorbryant/next-starter-tailwind/issues/new) with some constructive criticism
+  - [Submit a pull request](https://github.com/taylorbryant/next-starter-tailwind/compare) with some improvements to the project
 
 ## Contributors ✨
 
