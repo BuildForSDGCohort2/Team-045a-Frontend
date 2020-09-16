@@ -18,12 +18,18 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run format && npm run fix"
+      "pre-commit": "npm run fix && npm run lint && npm run format"
     }
   },
   "lint-staged": {
-    "*.+(js|jsx)": ["eslint --fix", "git add"],
-    "*.+(json|css|md)": ["prettier --write", "git add"]
+    "*.+(js|jsx)": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.+(json|css|md)": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
