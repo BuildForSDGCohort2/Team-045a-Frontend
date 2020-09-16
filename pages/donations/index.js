@@ -1,5 +1,5 @@
-function AllDonationsPage (){
-    return <div></div>
+function AllDonationsPage () {
+  return <div></div>;
 }
 
 export default AllDonationsPage;

@@ -1,5 +1,5 @@
-function DeleteAccountPage (){
-    return <div></div>
+function DeleteAccountPage () {
+  return <div></div>;
 }
 
 export default DeleteAccountPage;

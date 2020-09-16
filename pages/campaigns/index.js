@@ -1,5 +1,5 @@
-function AllCampaignsPage (){
-    return <div></div>
+function AllCampaignsPage () {
+  return <div></div>;
 }
 
 export default AllCampaignsPage;

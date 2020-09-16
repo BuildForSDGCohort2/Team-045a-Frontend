@@ -1,5 +1,5 @@
-function DiscoverPage (){
-    return <div></div>
+function DiscoverPage () {
+  return <div></div>;
 }
 
 export default DiscoverPage;

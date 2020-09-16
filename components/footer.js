@@ -4,7 +4,12 @@ function Footer() {
       <ul className="flex items-center justify-between max-w-4xl p-4 mx-auto text-sm text-white md:p-8">
         <li>
           Created by{" "}
-          <a href="https://bryant.io" target="_blank" className="font-bold">
+          <a
+            href="https://bryant.io"
+            target="_blank"
+            rel="noreferrer"
+            className="font-bold"
+          >
             Taylor Bryant
           </a>
         </li>
@@ -14,6 +19,7 @@ function Footer() {
             href="https://github.com/oddstronaut/tailwind-next"
             target="_blank"
             className="font-bold"
+            rel="noreferrer"
           >
             GitHub
           </a>

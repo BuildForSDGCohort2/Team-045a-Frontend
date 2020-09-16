@@ -1,5 +1,5 @@
-function EditCampaignPage (){
-    return <div></div>
+function EditCampaignPage () {
+  return <div></div>;
 }
 
 export default EditCampaignPage;

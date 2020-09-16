@@ -1,5 +1,5 @@
-function EditProfilePage (){
-    return <div></div>
+function EditProfilePage () {
+  return <div></div>;
 }
 
 export default EditProfilePage;
