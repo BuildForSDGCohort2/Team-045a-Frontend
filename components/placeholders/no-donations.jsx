@@ -1,5 +1,5 @@
-function NoDonations (){
-    return <div></div>
+function NoDonations() {
+  return <div></div>;
 }
 
 export default NoDonations;

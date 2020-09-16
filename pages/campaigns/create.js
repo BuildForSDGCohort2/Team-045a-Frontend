@@ -1,4 +1,4 @@
-function CreateCampaignPage () {
+function CreateCampaignPage() {
   return <div></div>;
 }
 

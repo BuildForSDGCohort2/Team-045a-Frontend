@@ -1,4 +1,4 @@
-function EditProfilePage () {
+function EditProfilePage() {
   return <div></div>;
 }
 

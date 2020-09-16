@@ -1,4 +1,4 @@
-function DeleteAccountPage () {
+function DeleteAccountPage() {
   return <div></div>;
 }
 

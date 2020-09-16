@@ -1,4 +1,4 @@
-function AllDonationsPage () {
+function AllDonationsPage() {
   return <div></div>;
 }
 

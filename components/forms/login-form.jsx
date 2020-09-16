@@ -1,5 +1,5 @@
-function LoginForm (){
-    return <div></div>
+function LoginForm() {
+  return <div></div>;
 }
 
 export default LoginForm;

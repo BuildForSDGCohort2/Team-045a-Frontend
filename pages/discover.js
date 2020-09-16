@@ -1,4 +1,4 @@
-function DiscoverPage () {
+function DiscoverPage() {
   return <div></div>;
 }
 

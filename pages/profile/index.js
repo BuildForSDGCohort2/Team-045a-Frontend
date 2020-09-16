@@ -1,4 +1,4 @@
-function ProfilePage () {
+function ProfilePage() {
   return <div></div>;
 }
 

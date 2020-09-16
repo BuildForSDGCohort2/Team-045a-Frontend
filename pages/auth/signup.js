@@ -1,4 +1,4 @@
-function SignupPage () {
+function SignupPage() {
   return <div></div>;
 }
 

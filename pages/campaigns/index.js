@@ -1,4 +1,4 @@
-function AllCampaignsPage () {
+function AllCampaignsPage() {
   return <div></div>;
 }
 

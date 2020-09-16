@@ -1,5 +1,5 @@
-function SignupForm (){
-    return <div></div>
+function SignupForm() {
+  return <div></div>;
 }
 
 export default SignupForm;

@@ -1,4 +1,4 @@
-function PledgePage () {
+function PledgePage() {
   return <div></div>;
 }
 

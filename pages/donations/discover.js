@@ -1,4 +1,4 @@
-function DiscoverDonationsPage () {
+function DiscoverDonationsPage() {
   return <div></div>;
 }
 
