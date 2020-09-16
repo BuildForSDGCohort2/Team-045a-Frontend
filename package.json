@@ -6,6 +6,8 @@
   "scripts": {
     "analyze:tailwind-css-class-order": "rustywind --dry-run .",
     "analyze": "npm run analyze:tailwind-css-class-order",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "lint": "eslint --fix .",
     "fix:tailwind-css-class-order": "rustywind --write .",
     "fix": "npm run fix:tailwind-css-class-order",
     "dev": "next",
@@ -13,6 +15,21 @@
     "export": "npm run build && next export",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run fix && lint-staged && yarn build"
+    }
+  },
+  "lint-staged": {
+    "*.+(js|jsx)": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.+(json|css|md)": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -26,11 +43,23 @@
   "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
     "next": "9.5.2",
+    "prettier": "^2.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
     "autoprefixer": "9.8.6",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.3.0",
     "rustywind": "0.6.6",
     "tailwindcss": "1.7.3"
   }
